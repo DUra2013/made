@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>送给我的老baby</title>
+<link href="images/01.jpg" rel="shortcut icon"/>
+<link href="css/Untitled-2.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+h1 {color:red;}
+p1 {color:DarkMagenta;}
+p2 {font-size: 40px;color: MediumPurple;font-weight:bold}
+    p3{color:DarkMagenta;}
+    p4{display: block;
+                text-decoration: none;
+                text-align: center;font-weight: bold;
+                line-height: 1.5;
+                margin: 20px 0px;
+                background-image: -webkit-linear-gradient(left,#3498db,#f47920 10%,#d71345 20%,#f7acbc 30%,#ffd400 40%,#3498db 50%,#f47920 60%,#d71345 70%,#f7acbc 80%,#ffd400 90%,#3498db);
+                color: transparent;
+                -webkit-background-clip: text;
+                background-size: 200% 100%;
+                -webkit-animation: slide 2s infinite linear;
+                animation: slide 5s infinite linear;
+                font-size: 40px;
+                @keyframes slide {
+                0%  {
+                  background-position: 0 0;
+                }
+                100% {
+                  background-position: -100% 0;
+                }
+            }
+</style>
+    </head>
+    
+    <body>
+        <h1>吵什么吵！就这么一点事。</h1>
+        <p1>今天，我们大家之所以欢聚在这里，是为我们从小到大的好朋友，</p1><br><br><br>
+        <body>
+            <body style="font-size: 30px;"></body>
+            <div id="blink";>王子煜</div>
+<script language="javascript">
+function changeColor(){
+var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+color=color.split("|");
+document.getElementById("blink").style.color=color[parseInt(Math.random() * color.length)];
+}
+setInterval("changeColor()",200);
+</script>
+            <style type="text/css">
+                div{width: 300px;text-align: center;height: 30px;line-height: 30px;font-size: 100px;font-weight: bolder;justify-content: center}
+            </style>
+            </body><br><br>
+        <p2>庆祝她的生日。</p2>
+        
+    </body>
+<body>
+ 
+<div id="main">
+ 
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+ 
+</div>
+    
+<script type="text/javascript">
+var fl = document.getElementById('main');
+var chroX = document.documentElement.clientWidth;
+var chroY = document.documentElement.clientHeight;
+var offsetLeft = fl.offsetLeft;
+var offsetTop = fl.offsetTop;
+var timer = 0;
+console.log(offsetTop)
+var x = 20;
+var y = 20;
+window.onresize = function(){
+    chroX = document.documentElement.clientWidth;
+    chroY = document.documentElement.clientHeight;
+}
+function move(){
+    offsetLeft += x;
+    offsetTop += y;
+    fl.style.left = offsetLeft  + 'px';
+    fl.style.top = offsetTop  + 'px';
+    console.log(chroY)
+}
+window.onload = function(){
+   timer = setInterval(function(){
+        move();
+        if(offsetTop+100 > chroY || offsetTop < 0){
+            y = -y;
+        }
+        if(offsetLeft+100 > chroX || offsetLeft <0){
+            x = -x;
+        }
+    },10)
+}
+fl.onmouseenter = function(){
+    clearInterval(timer)
+}
+fl.onmouseleave = function(){
+    window.onload();
+}
+</script>
+    <style type="text/css">
+        #main{ width:500px;
+       height:500px; 
+       position:absolute;
+      }
+#a{ width:300px; 
+    height:300px; 
+    background:#F00; 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    border-radius:50%;
+   }
+#b{ width:300px; 
+    height:300px; 
+    background:#F00; 
+    position:absolute; 
+    top:0; 
+    right:0; 
+    border-radius:50%;
+   }
+#c{ width:300px;
+    height:300px;
+    background:#F00; 
+    transform:translate(100px,100px) rotate(45deg);
+  }
+        </style><br>
+    <p3>我发自内心地祝愿她,23岁之后，她的人生开始</p3>
+    <p4>发光，发热！</p4>
+    
+</body>
+</html>
